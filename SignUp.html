@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="content">
+            <ul>
+                <li>
+                    <div class="icon">
+                        <h2 class="logo">BTS</h2>
+                    </div>
+                </li>
+                <li><a href="Assignment.html">HOME</a></li>
+                <li><a href="more.html">PROFILES</a></li>
+                <li><a href="fandom.html">FANDOM</a></li>
+                <li><a href="SignUp.html" class="button">SIGN UP</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="signup">
+        <br/>
+        <h1>Sign Up to become a fan</h1>
+        <div class="form">
+            <h2>Personal Details</h2>
+            <form onsubmit="return validateForm()" action="Assignment.html">
+                <label for="uname">Name</label>
+                <input type="text" name="username" id="uname" placeholder="uname">
+                <br/>
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="email">
+                <br/>
+
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
